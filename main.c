@@ -131,7 +131,7 @@ int main(int argc, char *argv[])
    printf("Se ao menos os humanos pudessem entender a linguagem\n");
    printf("corporal das maquinas.\n\n");
   }
-  printf("Digite 1 para continuar ou 2 para sair\n");
+  printf("Digite 1 para continuar ou 2 para cair fora!\n");
   scanf("%d",&resp);
   
   }while (resp==1);
