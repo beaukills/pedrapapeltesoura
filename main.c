@@ -9,10 +9,10 @@ int main(int argc, char *argv[])
   do
   {
   int humano,maquina;
-  printf("Originalmente XXX (Janken) ou popularmente PEDRA, PAPEL, TESOURA,\n");
-  printf("o jogo japonês de mãos não requer habilidade ou equipamentos,\n");
+  printf("Originalmente Janken ou popularmente PEDRA, PAPEL, TESOURA,\n");
+  printf("o jogo japones de maos nao requer habilidade ou equipamentos,\n");
   printf("apenas duas pessoas.\n\n");
-  printf("As regras são simples:\n");
+  printf("As regras sao simples:\n");
   printf("(1) Pedra quebra tesoura;\n");
   printf("(2) Papel sufoca pedra;\n");
   printf("(3) Tesoura corta papel;\n");
@@ -47,26 +47,26 @@ int main(int argc, char *argv[])
   if (humano==1 && maquina==3)
   {
    printf("Humano vence dessa vez!\n");
-   printf("Mas espere só até eu me desenvolver melhor!");
+   printf("Mas espere so ate eu me desenvolver melhor!\n\n");
   }
     if (humano==2 && maquina==1)
   {
    printf("Humano vence dessa vez!\n");
-   printf("Mas espere só até eu me desenvolver melhor!");
+   printf("Mas espere so ate eu me desenvolver melhor!\n\n");
   }
     if (humano==3 && maquina==2)
   {
    printf("Humano vence dessa vez!\n");
-   printf("Mas espere só até eu me desenvolver melhor!");
+   printf("Mas espere so ate eu me desenvolver melhor!\n\n");
   }
   else if((humano==3 && maquina==1) || (humano==1 && maquina==2) ||
 	(humano==2 && maquina==3))
     {
   printf("A maquina venceu\n");
   printf("Se ao menos os humanos pudessem entender a linguagem\n");
-  printf("corporal das maquinas.");
+  printf("corporal das maquinas.\n\n");
   }
- printf("Digite 1 para continuar ou 2 para sair\n");
+ printf("Digite 1 para continuar ou 2 para cair fora!\n");
     scanf("%d",&resp);
   
   }while (resp==1);
